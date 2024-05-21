@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "colorblender": "^2.7.4",
+    "paletten": "^0.5.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-pure-modal": "^2.2.5",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-use": "^17.5.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
