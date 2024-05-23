@@ -41,7 +41,7 @@ extend([nameExtension]);
 export function generateTones(baseColour, themeName = ""){
 	let newThemeName = themeName.toLocaleLowerCase().replaceAll(" ", "-") 
 		|| 
-		colorblender(baseColour).name.toLocaleLowerCase().replaceAll(" ", "-");
+		colorblender(baseColour).name().toLocaleLowerCase().replaceAll(" ", "-");
 	
 	let rawPalettenOutput = paletten(baseColour);
 
