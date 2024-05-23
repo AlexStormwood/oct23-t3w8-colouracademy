@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Template from "./pages/_TemplatePage";
 import HomePage from "./pages/HomePage";
+import GeneratorPage from "./pages/GeneratorPage";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         {/* localhost:3000// */}
         {/* <Route path="/" element={<HomePage />} /> */}
         <Route path="generator" element={<GeneratorPage />} />
-        <Route path="generator/saved" element={<SavedThemesPage />} />
+        {/* <Route path="generator/saved" element={<SavedThemesPage />} /> */}
       </Route>
     </Routes>
   );
