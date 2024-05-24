@@ -5,6 +5,7 @@ import { useCurrentThemeData } from "../contexts/currentThemeContext";
 import { ColourBlock } from "../components/ColourBlock";
 import PureModal from 'react-pure-modal';
 import 'react-pure-modal/dist/react-pure-modal.min.css';
+import { CssCodeExport } from "../components/CssCodeExport";
 
 
 export default function GeneratorPage(){
@@ -49,7 +50,7 @@ export default function GeneratorPage(){
 					return true;
 				}}
 			>
-				<p>Your content</p>
+				<CssCodeExport />
 			</PureModal>
 			<button onClick={() => setModal(!modal)}>
 				Toggle Modal
