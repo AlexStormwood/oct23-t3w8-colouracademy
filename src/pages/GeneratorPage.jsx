@@ -61,7 +61,7 @@ export default function GeneratorPage(){
 			{/* <input type="color" name="" id="" /> */}
 			<Sketch color={formBaseColour} onChange={(colour) => setFormBaseColour(colour.hex)} />
 			<button onClick={() => setModal(!modal)}>
-				Toggle Modal
+				Export CSS variables
 			</button>
 			</div>
 
