@@ -1,11 +1,12 @@
 # ColourAcademy - CSS Variable Generator Website 
 
-- CSS variable export (high priority)
-- save themes to a list of themes (medium priority)
-- preview components like UI Colours (nice-to-have)
-- Dark/light mode toggle in global context 
-- Deploy
-	- show the thing that Netlify needs to make React Router work 
+- [x] CSS variable export (high priority)
+- [x] Fix the width of the modal 
+- [ ] save themes to a list of themes (medium priority)
+- [ ] preview components like UI Colours (nice-to-have)
+- [ ] Dark/light mode toggle in global context 
+- [ ] Deploy
+	- [ ] show the thing that Netlify needs to make React Router work 
 
 
 ## Routes 
