@@ -4,7 +4,7 @@
 - [x] Fix the width of the modal 
 - [ ] save themes to a list of themes (medium priority)
 - [ ] preview components like UI Colours (nice-to-have)
-- [ ] Dark/light mode toggle in global context 
+- [x] Dark/light mode toggle in global context 
 - [x] Deploy
 	- [x] show the thing that Netlify needs to make React Router work 
 
